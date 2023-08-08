@@ -1,0 +1,68 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+    text-align: center;
+    background-origin:;
+    background: url(https://img.freepik.com/premium-vector/abstract-seamless-pattern-background-with-artistic-style_7505-1600.jpg) 
+}
+
+.container{
+    width: 550PX;       
+    height: 450px;
+}
+
+.header{
+    font-size: 1.2rem;
+    border: 2px solid rgb(112, 98, 98);
+    background-color: bisque;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 7px;
+}
+
+.main-content{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px rgb(201, 164, 120);
+}
+
+.main-content .text-area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .person{
+    font-size: 1.2rem;
+    color: brown;
+    text-transform: uppercase;
+    margin: 20px;
+    text-align: right;
+}
+
+#button-area button{
+    background-color: chocolate;
+    color: aliceblue;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+#button-area button:active{
+    background-color: lightsteelblue ;
+}
